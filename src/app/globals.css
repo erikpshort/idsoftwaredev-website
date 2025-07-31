@@ -1,26 +1,24 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-200;
+}
+
+/* Additional layers stay the same */
+@layer components {
+  .prose {
+    @apply text-gray-600 dark:text-gray-300;
+  }
+  .prose h1, .prose h2, .prose h3 {
+    @apply text-gray-900 dark:text-white;
+  }
+  .prose a {
+    @apply text-teal-600 hover:text-teal-700 dark:text-teal-400 dark:hover:text-teal-300;
+  }
+  .prose strong {
+    @apply text-gray-900 dark:text-gray-100;
+  }
+  .prose ul > li::before {
+    @apply bg-teal-500 dark:bg-teal-500;
+  }
 }
