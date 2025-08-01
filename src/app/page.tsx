@@ -12,7 +12,7 @@ export default function HomePage() {
             Build Your Vision in Code
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto animate-fade-in-up">
-            Idaho Software Development creates fast, reliable, and beautiful websites and applications for small businesses across Idaho. Let's bring your idea to life.
+            Idaho Software Development creates fast, reliable, and beautiful websites and applications for small businesses across Idaho. Let&apos;s bring your idea to life.
           </p>
           <div className="mt-8">
             <a href="#contact" className="bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-8 rounded-md transition-colors text-lg inline-block transform hover:scale-105">
@@ -96,7 +96,7 @@ export default function HomePage() {
                   <div className="md:w-2/3 text-center md:text-left">
                       <h2 className="text-3xl font-bold text-gray-900 mb-4">A Local Developer You Can Trust</h2>
                       <p className="text-gray-600 leading-relaxed mb-4">
-                          My name is Erik Short, and I'm the founder of Idaho Software Development. Based right here in the Treasure Valley, I'm passionate about helping local businesses thrive by providing high-quality, affordable technology solutions. I'm not a faceless agency; I'm your neighbor, dedicated to building strong, lasting relationships with my clients.
+                          My name is Erik Short, and I&apos;m the founder of Idaho Software Development. Based right here in the Treasure Valley, I&apos;m passionate about helping local businesses thrive by providing high-quality, affordable technology solutions. I&apos;m not a faceless agency; I&apos;m your neighbor, dedicated to building strong, lasting relationships with my clients.
                       </p>
                       <p className="text-gray-600 leading-relaxed">
                           When you work with me, you get a direct line of communication and a partner who is genuinely invested in your success.
@@ -112,12 +112,12 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">What Our Clients Say</h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-gray-50 p-8 rounded-lg border border-gray-200">
-              <p className="text-gray-600 mb-6 italic">"Erik has been an invaluable technology partner. He's built several custom applications for my businesses, and each time he's delivered a rock-solid product that fits our unique needs perfectly. He's great at understanding the business goals behind the software."</p>
+              <p className="text-gray-600 mb-6 italic">&quot;Erik has been an invaluable technology partner. He&apos;s built several custom applications for my businesses, and each time he&apos;s delivered a rock-solid product that fits our unique needs perfectly. He&apos;s great at understanding the business goals behind the software.&quot;</p>
               <p className="font-bold text-gray-900">Simon Vander Woude</p>
               <p className="text-sm text-teal-600">Vander Woude Enterprises</p>
             </div>
             <div className="bg-gray-50 p-8 rounded-lg border border-gray-200">
-              <p className="text-gray-600 mb-6 italic">"We came to Erik with a complex idea for a health and safety application, and he has been crushing it. His attention to detail and commitment to getting things right are exactly what you need for a project this critical. We're excited to continue our work with him."</p>
+              <p className="text-gray-600 mb-6 italic">&quot;We came to Erik with a complex idea for a health and safety application, and he has been crushing it. His attention to detail and commitment to getting things right are exactly what you need for a project this critical. We&apos;re excited to continue our work with him.&quot;</p>
               <p className="font-bold text-gray-900">Mike Gugino</p>
               <p className="text-sm text-teal-600">The GMN Group</p>
             </div>

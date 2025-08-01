@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from 'react';
 
 export default function ContactForm() {
@@ -22,7 +24,7 @@ export default function ContactForm() {
   return (
     <div className="w-full max-w-lg bg-white p-8 rounded-2xl border border-gray-200 shadow-lg">
       <h3 className="text-2xl font-bold text-center text-gray-900 mb-2">Contact Me</h3>
-      <p className="text-center text-gray-600 mb-6">Have a project in mind? Let's talk.</p>
+      <p className="text-center text-gray-600 mb-6">Have a project in mind? Let&apos;s talk.</p>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label htmlFor="name" className="sr-only">Your Name</label>
@@ -69,7 +71,7 @@ export default function ContactForm() {
       </form>
       {status && <p className="text-center mt-4 text-green-600">{status}</p>}
       <p className="text-center text-xs text-gray-500 mt-4">
-        If the button doesn't work, you can email me directly at <a href="mailto:admin@idsoftwaredev.com" className="underline hover:text-teal-600">admin@idsoftwaredev.com</a>.
+        If the button doesn&apos;t work, you can email me directly at <a href="mailto:admin@idsoftwaredev.com" className="underline hover:text-teal-600">admin@idsoftwaredev.com</a>.
       </p>
     </div>
   );
