@@ -1,5 +1,3 @@
-'use client';
-
 import { useState } from 'react';
 
 export default function ContactForm() {
@@ -22,9 +20,9 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="w-full max-w-lg bg-white dark:bg-gray-800/50 p-8 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-lg dark:shadow-teal-500/10">
-      <h3 className="text-2xl font-bold text-center text-gray-900 dark:text-white mb-2">Contact Me</h3>
-      <p className="text-center text-gray-600 dark:text-gray-400 mb-6">Have a project in mind? Let's talk.</p>
+    <div className="w-full max-w-lg bg-white p-8 rounded-2xl border border-gray-200 shadow-lg">
+      <h3 className="text-2xl font-bold text-center text-gray-900 mb-2">Contact Me</h3>
+      <p className="text-center text-gray-600 mb-6">Have a project in mind? Let's talk.</p>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label htmlFor="name" className="sr-only">Your Name</label>
@@ -34,7 +32,7 @@ export default function ContactForm() {
             value={name}
             onChange={(e) => setName(e.target.value)}
             placeholder="Your Name"
-            className="w-full p-3 rounded-md bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-teal-500 focus:outline-none transition-colors"
+            className="w-full p-3 rounded-md bg-gray-100 border border-gray-300 focus:ring-2 focus:ring-teal-500 focus:outline-none transition-colors"
             required
           />
         </div>
@@ -46,7 +44,7 @@ export default function ContactForm() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Your Email"
-            className="w-full p-3 rounded-md bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-teal-500 focus:outline-none transition-colors"
+            className="w-full p-3 rounded-md bg-gray-100 border border-gray-300 focus:ring-2 focus:ring-teal-500 focus:outline-none transition-colors"
             required
           />
         </div>
@@ -58,7 +56,7 @@ export default function ContactForm() {
             onChange={(e) => setMessage(e.target.value)}
             placeholder="Tell me about your project..."
             rows={5}
-            className="w-full p-3 rounded-md bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-teal-500 focus:outline-none transition-colors"
+            className="w-full p-3 rounded-md bg-gray-100 border border-gray-300 focus:ring-2 focus:ring-teal-500 focus:outline-none transition-colors"
             required
           ></textarea>
         </div>
@@ -69,9 +67,9 @@ export default function ContactForm() {
           Send Inquiry
         </button>
       </form>
-      {status && <p className="text-center mt-4 text-green-600 dark:text-green-400">{status}</p>}
-      <p className="text-center text-xs text-gray-500 dark:text-gray-400 mt-4">
-        If the button doesn't work, you can email me directly at <a href="mailto:admin@idsoftwaredev.com" className="underline hover:text-teal-600 dark:hover:text-teal-400">admin@idsoftwaredev.com</a>.
+      {status && <p className="text-center mt-4 text-green-600">{status}</p>}
+      <p className="text-center text-xs text-gray-500 mt-4">
+        If the button doesn't work, you can email me directly at <a href="mailto:admin@idsoftwaredev.com" className="underline hover:text-teal-600">admin@idsoftwaredev.com</a>.
       </p>
     </div>
   );

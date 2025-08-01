@@ -1,7 +1,7 @@
 export default function TermsOfServicePage() {
   return (
-    <div className="py-20 bg-white dark:bg-gray-900">
-      <div className="container mx-auto px-6 prose prose-lg max-w-4xl dark:prose-invert">
+    <div className="py-20 bg-white">
+      <div className="container mx-auto px-6 prose prose-lg max-w-4xl">
         <h1>Terms of Service</h1>
         <p className="lead">Last Updated: July 31, 2025</p>
 
