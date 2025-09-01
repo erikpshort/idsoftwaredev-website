@@ -1,25 +1,27 @@
 @import "tailwindcss";
 
+
 @layer base {
   body {
     @apply bg-white text-gray-800;
   }
-}
 
-@layer components {
-  .prose {
-    @apply text-gray-600;
+  h1 {
+    font-size: var(--text-2xl);
+       font-weight: 900;
   }
-  .prose h1, .prose h2, .prose h3 {
-    @apply text-gray-900;
+
+  h2 {
+    font-size: var(--text-xl);
+    font-weight: 700;
   }
-  .prose a {
-      @apply text-teal-600 hover:text-teal-700;
+  h3 {
+    font-size: var(--text-lg);
+    font-weight: 600;
   }
-  .prose strong {
-      @apply text-gray-900;
+  h4 {
+    font-size: var(--text-md);
+    font-weight: 500;
   }
-  .prose ul > li::before {
-      @apply bg-teal-500;
-  }
+  
 }

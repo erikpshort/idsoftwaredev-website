@@ -86,7 +86,7 @@ export default function HomePage() {
               <div className="flex flex-col md:flex-row items-center gap-12">
                   <div className="md:w-1/3">
                       <Image 
-                        src="/erik-short.png"
+                        src="/erik-short.jpg"
                         alt="A photo of Erik Short"
                         width={256}
                         height={256}

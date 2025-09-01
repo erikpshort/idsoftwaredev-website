@@ -1,23 +1,23 @@
 export default function TermsOfServicePage() {
   return (
-    <div className="py-20 bg-white">
-      <div className="container mx-auto px-6 prose prose-lg max-w-4xl">
+
+    <div className="py-20 bg-white container mx-auto px-6 prose prose-lg max-w-4xl prose-ol:list-decimal prose-li:marker:text-gray-700">
         <h1>Terms of Service</h1>
-        <p className="lead">Last Updated: July 31, 2025</p>
+        <p className="lead">Last Updated: September 1, 2025</p>
 
         <p>Please read these Terms of Service (&quot;Terms&quot;, &quot;Terms of Service&quot;) carefully before using the https://idsoftwaredev.com website (the &quot;Service&quot;) operated by Idaho Software Development (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;).</p>
         <p>Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users, and others who access or use the Service.</p>
 
         <h2>SMS Messaging Program Terms</h2>
-        <p>By opting into our SMS messaging program, you agree to these Terms of Service and our Privacy Policy.</p>
+        <p>By opting into our SMS messaging program for project updates, you agree to these Terms of Service and our Privacy Policy.</p>
         <ol>
-          <li><strong>Program Description:</strong> Our SMS program is designed to provide you with project updates, service information, and occasional marketing promotions.</li>
-          <li><strong>Opt-In:</strong> You may opt-in by providing your phone number and checking the consent box on our website form. By doing so, you provide your express written consent to receive automated text messages from us.</li>
-          <li><strong>Opt-Out:</strong> You can opt-out of the SMS service at any time by texting &quot;STOP&quot; to any message you receive. You will receive a one-time opt-out confirmation text. No further messages will be sent to you. For help, text &quot;HELP&quot;.</li>
-          <li><strong>Cost and Frequency:</strong> Message and data rates may apply. Message frequency varies.</li>
-          <li><strong>User Requirements:</strong> You must be the mobile phone account holder or have permission from the account holder to enroll. You must be 18 years or older.</li>
-          <li><strong>No Guarantee:</strong> We and mobile carriers are not liable for delayed or undelivered messages.</li>
-          <li><strong>Prohibited Content:</strong> You agree not to send any prohibited content over the service.</li>
+          <li><strong>Program Description:</strong> Our SMS program provides clients with essential, non-promotional updates regarding their active project status and key milestones. These are informational messages related directly to the service we are providing you.</li>
+          <li><strong>Opt-In:</strong> You may opt-in by providing your phone number and checking the consent box on our website form. By doing so, you provide your express written consent to receive automated, informational text messages from us.</li>
+          <li><strong>Opt-Out:</strong> You can opt-out of the SMS service at any time by texting &quot;STOP&quot; to any message you receive. You will receive a one-time opt-out confirmation text message. After that, no further messages will be sent to you. For help, text &quot;HELP&quot;.</li>
+          <li><strong>Cost and Frequency:</strong> Message and data rates may apply for any messages sent to you from us and to us from you. Message frequency will vary depending on project activity and milestones.</li>
+          <li><strong>User Requirements:</strong> You must be the mobile phone account holder or have the account holder&apos;s permission to enroll. You must be 18 years of age or older.</li>
+          <li><strong>No Guarantee:</strong> We and the mobile carriers are not liable for delayed or undelivered messages.</li>
+          <li><strong>Support:</strong> For questions or support regarding the SMS program, please contact us at your designated project contact email.</li>
         </ol>
 
         <h2>Intellectual Property</h2>
@@ -32,6 +32,5 @@ export default function TermsOfServicePage() {
         <h2>Contact Us</h2>
         <p>If you have any questions about these Terms, please contact us.</p>
       </div>
-    </div>
   );
 }

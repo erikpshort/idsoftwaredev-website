@@ -25,7 +25,7 @@ export default function SmsOptInForm() {
   return (
     <div className="w-full max-w-lg bg-white p-8 rounded-2xl border border-gray-200 shadow-lg">
       <h3 className="text-2xl font-bold text-center text-gray-900 mb-4">Get Project Updates via SMS</h3>
-      <p className="text-center text-gray-600 mb-6">Enter your number to receive occasional updates on your project, special offers, and news. (approx. 2-4 msgs/month for 4 months)</p>
+      <p className="text-center text-gray-600 mb-6">Enter your phone number to receive important updates and alerts about your project status from Idaho Software Development.</p>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label htmlFor="phone" className="sr-only">Phone Number</label>
@@ -49,7 +49,7 @@ export default function SmsOptInForm() {
             required
           />
           <label htmlFor="consent" className="text-sm text-gray-600">
-            I agree to receive recurring automated marketing and informational text messages from Idaho Software Development at the number provided. Consent is not a condition of any purchase. Msg & data rates may apply. Message frequency varies. Reply HELP for help or STOP to cancel. View our <Link href="/terms-of-service" className="underline hover:text-gray-900">Terms of Service</Link> and <Link href="/privacy-policy" className="underline hover:text-gray-900">Privacy Policy</Link>.
+            I agree to receive automated informational text messages from Idaho Software Development regarding my project status and milestones at the number provided. Message frequency will vary based on project activity. Msg & data rates may apply. Reply HELP for help and STOP to cancel. View our <Link href="/terms-of-service" className="underline hover:text-gray-900">Terms of Service</Link> and <Link href="/privacy-policy" className="underline hover:text-gray-900">Privacy Policy</Link>.
           </label>
         </div>
         <button
