@@ -30,7 +30,17 @@ export default function TermsOfServicePage() {
         <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. We will try to provide at least 30 days&apos; notice prior to any new terms taking effect.</p>
 
         <h2>Contact Us</h2>
-        <p>If you have any questions about these Terms, please contact us.</p>
+        <p>
+          If you have any questions about these Terms, please contact us at
+          {" "}
+          <a
+            href="mailto:support@idsoftwaredev.com"
+            className="font-semibold text-teal-700 underline hover:text-teal-900"
+          >
+            support@idsoftwaredev.com
+          </a>
+          .
+        </p>
       </div>
   );
 }

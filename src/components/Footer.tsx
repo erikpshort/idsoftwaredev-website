@@ -17,6 +17,12 @@ export default function Footer() {
           </Link>
         </div>
         <p>&copy; {currentYear} Idaho Software Development. All rights reserved.</p>
+                  <a
+            href="mailto:support@idsoftwaredev.com"
+            className="font-semibold text-teal-700 underline text-xs hover:text-teal-900"
+          >
+            support@idsoftwaredev.com
+          </a>
       </div>
     </footer>
   );

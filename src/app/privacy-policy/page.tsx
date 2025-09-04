@@ -25,6 +25,9 @@ export default function PrivacyPolicyPage() {
             <li><strong>Message and Data Rates:</strong> Message and data rates may apply for any messages sent to you from us and to us from you. If you have any questions about your text plan or data plan, it is best to contact your wireless provider.</li>
         </ul>
 
+        <h3>We Do Not Sell or Share Phone Numbers</h3>
+        <p>We do not sell, rent, or share your phone number with third parties for their own marketing purposes. Your mobile number is used only to deliver messages you have consented to receive and for service-related support. We may use trusted service providers (e.g., Twilio) solely to facilitate delivery, under contractual obligations that prohibit them from using your number for any other purpose.</p>
+
         <h2>Use of Data</h2>
         <p>Idaho Software Development uses the collected data for various purposes:</p>
         <ul>

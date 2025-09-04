@@ -82,18 +82,9 @@ export default function HomePage() {
 
       {/* About Me Section */}
       <section id="about" className="py-20 bg-gray-50 border-y border-gray-200">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto px-6 items-center text-center">
               <div className="flex flex-col md:flex-row items-center gap-12">
-                  <div className="md:w-1/3">
-                      <Image 
-                        src="/erik-short.jpg"
-                        alt="A photo of Erik Short"
-                        width={256}
-                        height={256}
-                        className="rounded-full mx-auto shadow-lg"
-                      />
-                  </div>
-                  <div className="md:w-2/3 text-center md:text-left">
+                  <div className=" text-center">
                       <h2 className="text-3xl font-bold text-gray-900 mb-4">A Local Developer You Can Trust</h2>
                       <p className="text-gray-600 leading-relaxed mb-4">
                           My name is Erik Short, and I&apos;m the founder of Idaho Software Development. Based right here in the Treasure Valley, I&apos;m passionate about helping local businesses thrive by providing high-quality, affordable technology solutions. I&apos;m not a faceless agency; I&apos;m your neighbor, dedicated to building strong, lasting relationships with my clients.
